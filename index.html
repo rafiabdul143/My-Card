@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.A Rafi's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #e74c3c;
+            background: linear-gradient(90deg, #e74c3c, #c0392b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        h2, h3 {
+            color: #e74c3c;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .skill-card {
+            background: #1c1c1c;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            flex: 1 1 calc(30% - 20px);
+            box-shadow: 0 2px 10px rgba(255, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+        .skill-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #c0392b;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(255, 0, 0, 0.5);
+        }
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .fun-fact {
+            font-style: italic;
+            color: #bdc3c7;
+            margin-top: 20px;
+        }
+        hr {
+            border: 1px solid #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👋 Hello, I'm M.A Rafi</h1>
+        <p>I'm a <strong>Computer Science</strong> student from <strong>India</strong> 🚀, working on <strong>smart IoT systems</strong> and <strong>Python-based GUI applications</strong>. Passionate about <strong>AI</strong>, <strong>machine learning</strong>, and <strong>automation</strong>, I aim to create innovative solutions that bridge hardware and software. Always eager to learn and collaborate, I enjoy tackling challenging projects and expanding my skills.</p>
+
+        <hr>
+
+        <h2>🛠️ Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Node.js, React</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🗃️</div>
+                <h3>Databases</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">☁️</div>
+                <h3>Cloud Computing</h3>
+                <ul>
+                    <li>Google Cloud</li>
+                    <li>AWS (Basics)</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🧠</div>
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Tkinter</li>
+                    <li>Packet Tracer</li>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>📈 GitHub Stats</h2>
+        <div class="stats">
+            <img src="https://github-readme-stats.vercel.app/api?username=rafiabdul143&show_icons=true&theme=radical" alt="Rafi's GitHub stats">
+            <a href="https://github.com/rafiabdul143">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafiabdul143&layout=compact&theme=radical" alt="Top Languages">
+            </a>
+        </div>
+
+        <hr>
+
+        <h2>📫 Connect with Me</h2>
+        <ul>
+            <li><a href="https://linkedin.com/in/abdulrafi0870">LinkedIn</a></li>
+            <li><a href="https://github.com/rafiabdul143">GitHub</a></li>
+            <li>📧 <a href="mailto:mohdabdulrafi17@gmail.com">mohdabdulrafi17@gmail.com</a></li>
+        </ul>
+
+        <hr>
+
+        <h2>💡 Fun Fact</h2>
+        <p class="fun-fact">I automate systems before my coffee gets cold ☕🤖</p>
+    </div>
+</body>
+</html>
